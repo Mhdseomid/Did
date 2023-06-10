@@ -15,5 +15,3 @@ class TestAdd(unittest.TestCase):
         self.assertEqual(add_numbers(-5, -10), -15)
         self.assertEqual(add_numbers(-2, 4), 2)
 
-if __name__ == '__main__':
-    unittest.main()
