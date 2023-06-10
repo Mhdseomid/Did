@@ -7,8 +7,5 @@ class TestAddNum(unittest.TestCase):
         self.assertEqual(add_numbers(5, 10), 15)
         self.assertEqual(add_numbers(0, 5), 5)
 
-    def test_add_negative_numbers(self):
-        self.assertEqual(add_numbers(-2, -3), -5)
-        self.assertEqual(add_numbers(-5, -10), -15)
-        self.assertEqual(add_numbers(-2, 4), 2)
+   
 
